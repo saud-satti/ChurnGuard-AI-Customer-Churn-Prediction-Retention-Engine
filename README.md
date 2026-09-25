@@ -42,15 +42,6 @@ A churn-prediction pipeline built on the IBM Telco Customer Churn dataset (7,043
 
 At the lower, F1-optimized threshold the model catches most churners (81% recall) at the cost of more false positives (51% precision) — a trade-off that should be set deliberately based on the cost of a missed churner vs. an unnecessary retention offer, not left at an unexamined default.
 
-## Notes on v1 → v2
-
-The original version of this notebook compared the three models fairly on paper but had a few gaps that are fixed in `Churn_Prediction_v2.ipynb`:
-
-- XGBoost had no imbalance handling, unlike the other two models.
-- A threshold-optimization step was run but never actually applied — the final model was evaluated at a hardcoded 0.50 threshold, understating its usable recall.
-- `avg_monthly_spend` was silently zero for new customers.
-- The choice of XGBoost over the equally competitive Logistic Regression wasn't documented.
-
 ## Requirements
 
 ```
