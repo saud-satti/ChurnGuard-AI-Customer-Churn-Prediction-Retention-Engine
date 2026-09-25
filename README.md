@@ -7,7 +7,6 @@ A churn-prediction pipeline built on the IBM Telco Customer Churn dataset (7,043
 | File | Description |
 |---|---|
 | `Churn_Prediction_v2.ipynb` | Full pipeline: EDA → cleaning → feature engineering → model training/comparison → calibration → threshold tuning → SHAP explainability |
-| `Churn_Prediction_Story.docx` | Narrative write-up of the project, in story form |
 
 ## Dataset
 
