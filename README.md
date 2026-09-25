@@ -3,7 +3,7 @@
 A churn-prediction pipeline built on the IBM Telco Customer Churn dataset (7,043 customers, 21 raw fields). The notebook trains and compares three classifiers, calibrates the best-performing one, tunes its decision threshold, and explains its predictions with SHAP.
 
 ## Files
-
+.
 | File | Description |
 |---|---|
 | `Churn_Prediction_v2.ipynb` | Full pipeline: EDA → cleaning → feature engineering → model training/comparison → calibration → threshold tuning → SHAP explainability |
